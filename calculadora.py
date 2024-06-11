@@ -5,8 +5,8 @@ while True:
     print("\n\t\t\t -- Calculadora Simples --")
 #deixar sair por ultimo pfvr
     print("1. Soma")
-    print("2. subtração")
-    print("3. multiplicação") 
+    print("2. Subtração")
+    print("3. Multiplicação") 
     print("4. Divisão")
     print("5. Sair")
     
@@ -25,7 +25,7 @@ while True:
         print("\n\t\t{} + {} = {:.2f}\n".format(n1, n2, total)) 
         
     elif op == 2: # usar elif tbm
-        print("\n\t\t\t -- subtraçâo --\n")
+        print("\n\t\t\t -- Subtração --\n")
 
         n1 = float(input("informe N1: "))
         n2 = float(input("informe N2: "))
@@ -42,10 +42,10 @@ while True:
 
         total = n1 * n2 
 
-        print("\n\t\t{} * {} = {}\n" .format(n1,n2,total))
+        print("\n\t\t{} x {} = {}\n" .format(n1,n2,total))
 
     elif op == 4:
-        print("\n\")t\t\t -- Divisão -- \n")
+        print("\n\t\t -- Divisão -- \n")
         
         n1 = float(input("Informe N1: "))
         n2 = float(input("Informe N2: "))
