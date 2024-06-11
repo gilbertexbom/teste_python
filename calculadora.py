@@ -45,7 +45,7 @@ while True:
         print("\n\t\t{} * {} = {}\n" .format(n1,n2,total))
 
     elif op == 4:
-        print("\n\")t\t\t -- Divisão -- \n")
+        print("\n\"\t\t\t -- Divisão -- \n")
         
         n1 = float(input("Informe N1: "))
         n2 = float(input("Informe N2: "))
