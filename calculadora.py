@@ -3,7 +3,7 @@
 while True:
 
     print("\n\t\t\t -- Calculadora Simples --")
-#deixar soma por ultimo pfvr
+#deixar sair por ultimo pfvr
     print("1. Soma")
     print("2. subtração")
     print("3. Sair")
