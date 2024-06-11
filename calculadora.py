@@ -52,13 +52,13 @@ while True:
         n2 = float(input("Informe N2: "))
     
         if n2 == 0:
-            print("\n\t -- Erro: Não é possível dividir por 0! -- ")
+            print("\n\t -- Erro: Não é possível dividir por 0! -- \n")
             continue
         
     
         total = n1/n2
         
-        print("\n\t\t{} / {} = {}\n".format(n1, n2, total))
+        print("\n\t\t{} / {} = {:.2f}\n".format(n1, n2, total))
 
     elif op == 5:
         print("\n\t\t -- Modulo -- \n")
