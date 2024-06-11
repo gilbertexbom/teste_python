@@ -33,7 +33,7 @@ while True:
         print("\n\t\t{} - {} = {}\n" .format(n1,n2,total))
 
 
-    elif op == 2:
+    elif op == 3:
         print("\n\nAbraço!!\n\n")
         break
     else:
