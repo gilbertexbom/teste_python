@@ -6,7 +6,8 @@ while True:
 #deixar sair por ultimo pfvr
     print("1. Soma")
     print("2. subtração")
-    print("3. Sair")
+    print("3. multiplicação")
+    print("4. Sair")
     
 
     op = int(input("\nOpção: "))
@@ -32,8 +33,17 @@ while True:
 
         print("\n\t\t{} - {} = {}\n" .format(n1,n2,total))
 
+    elif op == 3: 
+        print("\n\t\t -- Multiplicação -- \n")
 
-    elif op == 3:
+        n1 = float(input("informe N1: "))   
+        n2 = float(input("informe N2: ")) 
+
+        total = n1 * n2 
+
+        print("\n\t\t{} * {} = {}\n" .format(n1,n2,total))
+            
+    elif op == 4:
         print("\n\nAbraço!!\n\n")
         break
     else:
