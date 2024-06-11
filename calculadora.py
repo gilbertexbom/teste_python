@@ -27,7 +27,7 @@ while True:
         print("\n\t\t\t -- subtraçâo --\n")
 
         n1 = float(input("informe N1: "))
-        n2 = float(input("informe n2: "))
+        n2 = float(input("informe N2: "))
 
         total = n1 - n2 
 
@@ -42,7 +42,7 @@ while True:
         total = n1 * n2 
 
         print("\n\t\t{} * {} = {}\n" .format(n1,n2,total))
-            
+
     elif op == 4:
         print("\n\nAbraço!!\n\n")
         break
